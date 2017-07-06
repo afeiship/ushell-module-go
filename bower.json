@@ -1,0 +1,20 @@
+{
+  "name": "ushell-module-go",
+  "homepage": "https://github.com/afeiship/ushell-module-go",
+  "authors": [
+    "feizheng <1290657123@qq.com>"
+  ],
+  "description": "Ushell module for go lang.",
+  "main": "index.sh",
+  "keywords": [
+    "ushell"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
