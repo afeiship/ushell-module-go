@@ -1,7 +1,7 @@
 {
-  "name": "ushell-module-go",
-  "version": "0.0.1",
-  "description": "Unix like shell module for go lang.",
+  "name": "@feizheng/ushell-module-go",
+  "version": "1.0.0",
+  "description": "Ushell module for golang.",
   "main": "index.sh",
   "repository": {
     "type": "git",
@@ -11,13 +11,14 @@
     "ushell",
     "unix",
     "shell",
-    "system",
-    "infomation"
+    "ushell-module-go"
   ],
-  "author": "afei",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-go/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-go#readme"
+  "homepage": "https://github.com/afeiship/ushell-module-go",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
