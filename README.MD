@@ -7,7 +7,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/ushell-module-go
+npm i -S @jswork/ushell-module-go
 ```
 
 ## license
