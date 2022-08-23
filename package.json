@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-go",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ushell module for golang.",
   "main": "index.sh",
   "repository": {
@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/afeiship/ushell-module-go",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "release": "release-it"
   },
   "devDependencies": {
-    "release-it": "^14.12.1"
+    "release-it": "^15.3.0"
   }
 }
