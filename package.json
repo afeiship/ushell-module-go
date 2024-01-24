@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-go",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ushell module for golang.",
   "main": "index.sh",
   "repository": {
@@ -22,8 +22,5 @@
   },
   "scripts": {
     "release": "release-it"
-  },
-  "devDependencies": {
-    "release-it": "^15.3.0"
   }
 }

@@ -9,6 +9,12 @@ export PATH=$PATH:$GOROOT/bin;
 
 alias gor="go run";
 
+# detect if macos
+if [[ $(uname -s) == "Darwin" ]]; then
+    # Homebrew
+    export GOROOT="$(brew --prefix golang)/libexec"
+fi
+
 # gvm
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm";
 
