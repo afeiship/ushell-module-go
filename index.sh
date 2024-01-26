@@ -7,7 +7,7 @@ export GOROOT=$(go env GOROOT);
 export PATH=$PATH:$GOPATH/bin;
 export PATH=$PATH:$GOROOT/bin;
 
-alias gor="go run";
+alias gor="go run .";
 alias gof="go fmt";
 
 # detect if macos
