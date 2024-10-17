@@ -9,6 +9,9 @@ export PATH=$PATH:$GOROOT/bin;
 
 alias gor="go run .";
 alias gof="go fmt";
+alias gog="go get";
+alias got="go test";
+alias gotidy="go mod tidy";
 
 # detect if macos
 if [[ $(uname -s) == "Darwin" ]]; then
